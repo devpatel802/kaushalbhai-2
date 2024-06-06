@@ -189,16 +189,16 @@ body {
 
 .section-heading h2 em {
   font-style: normal;
-  color: #03a4ed;
+  color: #d8a70f;
 }
 
 .section-heading h2 span {
-  color: #fe3f40;
+  color: #567e4f;
 }
 
 .main-blue-button a {
   display: inline-block;
-  background-color: #03a4ed;
+  background-color: #d8a70f;
   font-size: 15px;
   font-weight: 400;
   color: #fff;
@@ -210,7 +210,7 @@ body {
 
 .main-red-button a {
   display: inline-block;
-  background-color: #fe3f40;
+  background-color: #567e4f;
   font-size: 15px;
   font-weight: 400;
   color: #fff;
@@ -225,7 +225,7 @@ body {
   background-color: #fff;
   font-size: 15px;
   font-weight: 400;
-  color: #fe3f40;
+  color: #567e4f;
   text-transform: capitalize;
   padding: 12px 25px;
   border-radius: 23px;
@@ -298,7 +298,7 @@ header
     font-size: 24px;
     font-weight: 700;
     text-transform: uppercase;
-    color: #03a4ed;
+    color: #d8a70f;
     line-height: 100px;
     float: left;
     -webkit-transition: all 0.3s ease 0s;
@@ -308,7 +308,7 @@ header
 }
 
 .logo h4 span {
-  color: #fe3f40;
+  color: #567e4f;
 }
 
 .background-header .main-nav .logo h4 {
@@ -387,7 +387,7 @@ header
 
 .header-area .main-nav .nav li:last-child a:hover ,
 .background-header .main-nav .nav li:last-child a:hover {
-  background-color: #03a4ed;
+  background-color: #d8a70f;
 }
 
 .header-area .main-nav .nav li.submenu {
@@ -588,7 +588,7 @@ header
 }
 
 .header-area.header-sticky .nav li a.active {
-  color: #fe3f40;
+  color: #567e4f;
 }
 
 @media (max-width: 1200px) {
@@ -869,7 +869,8 @@ Banner Style
 .main-banner .left-content h6 {
   text-transform: uppercase;
   font-size: 18px;
-  color: #fe3f40;
+  /* color: #567e4f; */
+  color: #044404;
   margin-bottom: 15px;
 }
 
@@ -881,12 +882,13 @@ Banner Style
 }
 
 .main-banner .left-content h2 em {
-  color: #03a4ed;
+  color: #d8a70f;
   font-style: normal;
 }
 
 .main-banner .left-content h2 span {
-  color: #fe3f40;
+  /* color: #567e4f; */
+  color: #567e4f;
 }
 
 .main-banner .left-content p {
@@ -908,7 +910,7 @@ Banner Style
   background-color: #fff;
   font-size: 15px;
   font-weight: 500;
-  color: #fe3f40;
+  color: #567e4f;
   text-transform: capitalize;
   padding: 12px 25px;
   border-radius: 23px;
@@ -920,7 +922,7 @@ Banner Style
 .main-banner .left-content form input {
   width: 470px;
   height: 66px;
-  background-color: #03a4ed;
+  background-color: #d8a70f;
   border-radius: 33px;
   border: none;
   outline: none;
@@ -1019,23 +1021,23 @@ Services Style
   top: 0;
   font-size: 18px;
   font-weight: 600;
-  color: #03a4ed;
+  color: #d8a70f;
 }
 
 .our-services .first-bar span {
-  left: 100%;
+  left: 88%;
 }
 
 .our-services .second-bar span {
-  left: 100%;
+  left: 88%;
 }
 
 .our-services .third-bar span {
-  left: 100%;
+  left: 88%;
 }
 
 .our-services .third-bar span {
-  left: 100%;
+  left: 88%;
 }
 
 .our-services .progress-skill-bar h4 {
@@ -1056,7 +1058,7 @@ Services Style
 
 .our-services .progress-skill-bar .filled-bar {
   background: rgb(255,77,30);
-  background: linear-gradient(105deg, rgba(255,77,30,1) 0%, rgba(255,44,109,1) 100%);
+  background: linear-gradient(105deg, #044404 0%, rgba(255,44,109,1) 100%);
   height: 6px;
   border-radius: 3px;
   margin-bottom: -6px;
@@ -1115,8 +1117,8 @@ Portfolio
 }
 
 .our-portfolio .hidden-content {
-  background: rgb(255,77,30);
-  background: linear-gradient(105deg, rgba(255,77,30,1) 0%, rgba(255,44,109,1) 100%);
+  background: #044404;
+  background: linear-gradient(105deg, #044404 0%, #044404 100%);
   padding: 30px;
   border-radius: 20px;
   text-align: center;
@@ -1132,13 +1134,13 @@ Portfolio
   width: 20px;
   height: 20px;
   position: absolute;
-  background: rgb(255,77,30);
+  background: #044404;
   content: '';
   left: 50%;
   bottom: -8px;
   margin-left: -5px;
   transform: rotate(45deg);
-  background: linear-gradient(105deg, rgba(255,52,69,1) 0%, rgba(255,51,78,1) 100%);
+  background: linear-gradient(105deg, #044404 0%, #044404 100%);
   z-index: -1;
 }
 
@@ -1231,7 +1233,7 @@ Blog
 }
 
 .our-blog .left-image ul li i {
-  color: #ff4d61;
+  color: #197419;
   font-size: 16px;
   margin-right: 8px;
 }
@@ -1270,7 +1272,7 @@ Blog
 }
 
 .our-blog .right-list .left-content span i {
-  color: #ff4d61;
+  color: #228822;
   font-size: 16px;
   margin-right: 8px;
 }
@@ -1332,7 +1334,7 @@ contact
   line-height: 46px;
   background-color: #fff;
   border-radius: 50%;
-  color: #ff3b2c;
+  color: #228822;
   font-size: 22px;
   margin-left: 30px;
   margin-right: 15px;
@@ -1404,7 +1406,7 @@ form#contact textarea::placeholder {
 
 form#contact button {
   display: inline-block;
-  background-color: #03a4ed;
+  background-color: #d8a70f;
   font-size: 15px;
   font-weight: 400;
   color: #fff;
@@ -1418,7 +1420,7 @@ form#contact button {
 }
 
 form#contact button:hover {
-  background-color: #fe3f40;
+  background-color: #567e4f;
 }
 
 
@@ -1434,7 +1436,7 @@ footer p {
 }
 
 footer p a {
-  color: #fe3f40;
+  color: #567e4f;
 }
 
 /* 
@@ -1484,8 +1486,8 @@ responsive
     text-align: center;
   }
   .about-us .services .item  {
-    background: rgb(255,77,30);
-    background: linear-gradient(105deg, rgba(255,77,30,1) 0%, rgba(255,44,109,1) 100%);
+    background: #044404;
+    background: linear-gradient(105deg, #044404 0%, rgb(84, 80, 17) 100%);
     padding: 30px;
     border-radius: 20px;
     display: inline-block;
